@@ -1,0 +1,15 @@
+Webpack 图片
+Npm install file-loader url-loader –save-dev 安装图片的依赖包
+css 分离
+依赖插件
+npm install extract-text-webpack-plugin –save-dev // webpack4 不能用
+请用 npm install extract-text-webpack-plugin@next --save-dev
+
+注意 url-loader 和 url-loader 使用一个就好url-loader 依赖于file-loader是对file-loader又封装了一层。url-loader的配置都可以使用
+
+url-loader
+{
+limit //设定大小限制大于他就用文件形式，小于就压缩成base64为
+mimetype: 'image/png‘设置文件的MIME类型。如果未指定，则将使用文件扩展名来查找MIME类型。
+fallback: 'responsive-loader' //表示超过limit设置的上线 就用 这个程序处理
+}

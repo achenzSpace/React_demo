@@ -1,0 +1,58 @@
+.ant-carousel .slick-slide {
+    text-align: left;
+    height: 180px;
+    line-height: 30px;
+    background: white;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+}
+
+/*指示点*/
+.ant-carousel .slick-dots li{
+    background-color: rgba(225,107,127,0.3);
+    /*width: 3px;*/
+}
+/*选中点*/
+.ant-carousel .slick-dots li.slick-active button{
+    background-color:rgba(225,107,127,1);
+    /*width: 3px;*/
+}
+.carousel-btn{
+    position: relative;
+    width: 20%;
+    text-align: center;
+    height: 65px;
+    margin-bottom: 10px;
+    /*border: #364d79 1px solid;*/
+    /*border-radius: 10px;*/
+    /*border-right: 0;*/
+    /*border-left: 0;*/
+
+}
+.carousel-zyc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-carousel{
+    background-image: url("../../Libs/img/Logo.png") ;
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    margin-bottom: 0;
+    margin-left: -25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.img-carousel-label{
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+}

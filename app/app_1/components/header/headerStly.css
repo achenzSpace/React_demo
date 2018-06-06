@@ -1,0 +1,14 @@
+.header{
+    padding: 10px;
+    display: flex;
+    background-color: #FF2D9A;
+    justify-content:space-between;
+}
+.select{}
+.search{
+    /*width: 150px;*/
+    margin: 0 20px 0 20px;
+}
+.user-button{
+   width: 55px;
+}
